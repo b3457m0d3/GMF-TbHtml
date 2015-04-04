@@ -2,10 +2,15 @@
 a modified version of the TbHtml Helper class from Yii-Bootstrap (or Yiistrap)
 
 ### Usage
+everything works the same, but now some of the Bootstrap v2.3.2 dependent stuff works with Bootstrap 3
 ``` php
   $this->widget('bootstrap.widgets.TbHeroUnit', array(
 		'heading' => 'Hello, world!',
-		'content' => '<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>' . TbHtml::button('Learn more', array('color' =>TbHtml::BUTTON_COLOR_PRIMARY, 'size' => TbHtml::BUTTON_SIZE_LARGE)),
+		'content' => '<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+		featured content or information.</p>' . TbHtml::button('Learn more', array(
+		    'color'=>TbHtml::BUTTON_COLOR_PRIMARY, 
+		    'size' => TbHtml::BUTTON_SIZE_LARGE
+		)),
 	));
 	$this->widget('bootstrap.widgets.TbNavbar', array(
 		'brandLabel' => 'Title',
