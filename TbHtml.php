@@ -3,6 +3,7 @@
  * TbHtml class file.
  * @author Antonio Ramirez <ramirez.cobos@gmail.com>
  * @author Christoffer Niska <christoffer.niska@gmail.com>
+ * @author b3457m0d3 - modified some elements to work with Bootstrap 3 CSS
  * @copyright Copyright &copy; Christoffer Niska 2013-
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  * @package bootstrap.helpers
